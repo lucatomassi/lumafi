@@ -261,7 +261,7 @@ class Dashboard extends Component {
       return (
         <div className={ classes.root }>
           <div className={ classes.investedContainerLoggedOut }>
-          <Typography variant={'h5'} className={ classes.disaclaimer }>This project is in beta. Use at your own risk.</Typography>
+          <Typography variant={'h5'} className={ classes.disaclaimer }>COEN 424: WIP</Typography>
             <div className={ classes.introCenter }>
               <Typography variant='h3'>Connect your wallet to continue</Typography>
             </div>
