@@ -8,7 +8,6 @@ import {
 import IpfsRouter from 'ipfs-react-router'
 import './i18n';
 import interestTheme from './theme';
-import APR from './components/apr';
 import InvestSimple from './components/investSimple';
 import Header from './components/header';
 import Vaults from './components/vault';
@@ -78,10 +77,7 @@ class App extends Component {
           }}>
           
             <Switch>
-              <Route path="/stats">
-                <Header />
-                <APR />
-              </Route>
+              
               <Route path="/earn">
                 <Header />
                 <InvestSimple />
