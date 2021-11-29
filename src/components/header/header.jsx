@@ -13,6 +13,8 @@ import {
   CONNECTION_DISCONNECTED,
 } from '../../constants'
 
+import UnlockModal from '../unlock/unlockModal.jsx'
+
 
 import Store from "../../stores";
 const emitter = Store.emitter
@@ -178,7 +180,8 @@ class Header extends Component {
 
     const {
       account,
-      addressEnsName
+      addressEnsName,
+      modalOpen
     } = this.state
 
     var address = null;
@@ -218,7 +221,7 @@ class Header extends Component {
             }
           </div>
         </div>
-      
+        { modalOpen && this.renderModal() }
       </div>
     )
   }
@@ -284,7 +287,11 @@ class Header extends Component {
   closeModal = () => {
     this.setState({ modalOpen: false })
   }
-
+  renderModal = () => {
+    return (
+      <UnlockModal closeModal={ this.closeModal } modalOpen={ this.state.modalOpen } />
+    )
+  }
  
 }
 
