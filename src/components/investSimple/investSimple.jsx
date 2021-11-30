@@ -446,7 +446,7 @@ class InvestSimple extends Component {
                 <Typography variant={ 'h3' }>
                   {
                     asset.maxApr
-                      ? (asset.maxApr *11).toFixed(3) + ' %'
+                      ? (asset.maxApr *100).toFixed(4) + ' %'
                       : '0.0000 %'
                   }
                 </Typography>
