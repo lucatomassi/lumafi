@@ -1,6 +1,6 @@
 # Luma-Fi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
@@ -51,14 +51,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 
-### Advanced Configuration
 
- https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
- https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
